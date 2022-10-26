@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-            <p className='tex-xl tracking-widest uppercase text-[#1e97f3]'> Contact </p>
+            <p className='tex-xl tracking-widest uppercase text-[#008060]'> Contact </p>
             <h2 className='py-4'> Get In Touch</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
 
@@ -23,7 +23,7 @@ const Contact = () => {
                     </div>
                     <div>
                         <h2 className='py-2'> Andrew C Park </h2>
-                        <p> Software Engineer </p>
+                        <p> Shopify Developer </p>
                         <p className='py-4'> I am always looking to expand my network. Contact me and let's talk! </p>
                     </div>
                     <div>
@@ -35,7 +35,7 @@ const Contact = () => {
                             target='_blank'
                             rel='noreferrer'
                             >
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
                                 <FaLinkedinIn/>
                             </div>
                             </a>
@@ -44,15 +44,15 @@ const Contact = () => {
                             target='_blank'
                             rel='noreferrer'
                             >
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
                              <FaGithub />
                             </div>
                             </a>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
                                 <AiOutlineMail/>
                             </div>
                             <Link href='/resume'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
                                 <BsFillPersonLinesFill/>
                             </div>
                             </Link>
@@ -64,7 +64,7 @@ const Contact = () => {
              {/* RIGHT */}
             <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4' >
                 <div className='p-4'>
-                    <form action='https://getform.io/f/5db3f2a3-7bc5-4498-a8ef-ad8fb4173d33' method='POST' encType='multipart/form-data'>
+                    <form action='https://getform.io/f/95f1e04a-7ff8-478f-a8f3-ec98a6f32f4f' method='POST' encType='multipart/form-data'>
                         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                             <div className='flex flex-col'>
                                 <label className='uppercase text-sm py-2'> Name </label>
@@ -96,7 +96,7 @@ const Contact = () => {
         <div className='flex justify-center py-12 '>
             <Link href='/'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <HiOutlineChevronDoubleUp className='m-auto text-[#1477d2]' size={30} />
+                    <HiOutlineChevronDoubleUp className='m-auto text-[#008060]' size={30} />
                 </div>
             </Link>
         </div>

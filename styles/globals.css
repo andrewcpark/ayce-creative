@@ -24,7 +24,7 @@ html {
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl sm:text-4xl font-[Montserrat]
   }
 
   li {
@@ -32,7 +32,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#1a8ae5] to-[#64b7f6] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#64943E] to-[#95BF47] text-white
   }
 
 }
