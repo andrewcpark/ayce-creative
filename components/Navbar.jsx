@@ -56,6 +56,9 @@ useEffect (() => {
           <Link href='/#about'>
             <li className='ml-10 text-sm uppercase border-[#008060] hover:border-b'> About </li>
           </Link>
+          <Link href='/#expertise'>
+            <li className='ml-10 text-sm uppercase border-[#008060] hover:border-b'> Expertise </li>
+          </Link>
           <Link href='/#skills'>
             <li className='ml-10 text-sm uppercase border-[#008060] hover:border-b'> Skills </li>
           </Link>
@@ -98,6 +101,9 @@ useEffect (() => {
               </Link>
               <Link href='/#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#008060] hover:border-b'> About </li>
+              </Link>
+              <Link href='/#expertise'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#008060] hover:border-b'> Expertise </li>
               </Link>
               <Link href='/#skills'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#008060] hover:border-b'> Skills </li>
