@@ -27,7 +27,7 @@ const Contact = () => {
                         <p className='py-4'> I am always looking to expand my network. Contact me and let's talk! </p>
                     </div>
                     <div>
-                        <p className='uppercase pt-8'> Connect With Me</p>
+                        <p className='uppercase pt-8 text-[#008060]'> Connect With Me</p>
                         <div>
                             <div className='flex items-center justify-around py-8'>
                             <a
