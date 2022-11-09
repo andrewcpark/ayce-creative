@@ -19,7 +19,7 @@ export default function Home() {
     <About/>
     <Expertise/>
     <Skills/>
-    <Projects/>
+    {/* <Projects/> */}
     <Contact/>
     </div>
   )

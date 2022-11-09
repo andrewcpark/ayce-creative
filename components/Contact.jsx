@@ -29,7 +29,7 @@ const Contact = () => {
                     <div>
                         <p className='uppercase pt-8 text-[#008060]'> Connect With Me</p>
                         <div>
-                            <div className='flex items-center justify-around py-8'>
+                            <div className='flex items-center justify-evenly py-8'>
                             <a
                             href='https://www.linkedin.com/in/andrew-c-park/'
                             target='_blank'
@@ -51,11 +51,6 @@ const Contact = () => {
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
                                 <AiOutlineMail/>
                             </div>
-                            <Link href='/resume'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
-                                <BsFillPersonLinesFill/>
-                            </div>
-                            </Link>
                         </div>
                         </div>
                     </div>

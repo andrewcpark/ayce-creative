@@ -12,7 +12,7 @@ const Main = () => {
                 <h1 className='py-4 text-gray-700'> Hi, I'm <span className='text-[#008060]'> Andrew </span> </h1>
                 <h1 className='py-2 text-gray-700'> A Shopify Developer </h1>
                 <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'> I'm experienced in Shopify Theme and App Development. Based in Los Angeles, CA. </p>
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>
+                <div className='flex items-center justify-evenly max-w-[330px] m-auto py-6'>
                     <a
                     href='https://www.linkedin.com/in/andrew-c-park/'
                     target='_blank'
@@ -34,11 +34,6 @@ const Main = () => {
                     <Link href='/#contact'>
                     <div title='Message' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
                     <AiOutlineMail/>
-                    </div>
-                    </Link>
-                    <Link href='/resume'>
-                    <div title='Resume' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
-                    <BsFillPersonLinesFill/>
                     </div>
                     </Link>
                 </div>
