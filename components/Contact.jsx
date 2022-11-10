@@ -24,7 +24,7 @@ const Contact = () => {
                     <div>
                         <h2 className='py-2'> Andrew C Park </h2>
                         <p> Shopify Developer </p>
-                        <p className='py-4'> I am always looking to expand my network. Contact me and let's talk! </p>
+                        <p className='py-4'> I'm always looking to expand my network. Im am currently open to working with merchants and agencies. Contact me and let's talk! </p>
                     </div>
                     <div>
                         <p className='uppercase pt-8 text-[#008060]'> Connect With Me</p>

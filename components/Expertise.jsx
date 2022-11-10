@@ -21,7 +21,7 @@ const Expertise = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3> Theme Development </h3>
-                            <p className='p-2 text-center mt-8'> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                            <p className='p-2 text-center mt-8 text-gray-600'> I help clients set up stores from scratch and develop highly responsive themes that are compatible across browsers and devices. </p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Expertise = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3> App Development </h3>
-                            <p className='p-2 text-center mt-8'> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                            <p className='p-2 text-center mt-8 text-gray-600'> Wheter developing from scratch or building upon existing features, I am experienced in building and scaling Shopify apps across the tech stack. </p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const Expertise = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3> Store Maintenance </h3>
-                            <p className='p-2 text-center mt-8'> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                            <p className='p-2 text-center mt-8 text-gray-600'> From fixing bugs to implenting new features, I am here to provide clients support for their live online businesses.</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Expertise = () => {
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3> Custom Development </h3>
-                            <p className='p-2 text-center mt-8'> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                            <p className='p-2 text-center mt-8 text-gray-600'> Have an idea for your store or app? Let me help you bring your ideas to life. </p>
                         </div>
                     </div>
                 </div>
