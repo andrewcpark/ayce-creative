@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Andrew | Shopify Developer </title>
         <meta name="Andrew C Park" content="Shopify Developer" />
-        <link rel="icon" href="/assets/acp-logo.png" />
+        <link rel="icon" href="/assets/ayce-logo.png" />
       </Head>
 
     <Main/>
