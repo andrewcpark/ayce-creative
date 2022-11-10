@@ -1,6 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Javascript from '../public/assets/skills/javascript.png';
+import CustomDesign from '../public/assets/icons/customDesign.png';
+import Maintenance from '../public/assets/icons/maintenance.png';
+import AppDevelopment from '../public/assets/icons/appDevelopment.png';
+import ThemeDevelopment from '../public/assets/icons/themeDevelopment.png';
 
 const Expertise = () => {
   return (
@@ -13,7 +17,7 @@ const Expertise = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='flex flex-col gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                        <Image src={Javascript} alt='/' width='64px' height='64px' />
+                        <Image src={ThemeDevelopment} alt='/' width='150px' height='150px' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3> Theme Development </h3>
@@ -25,7 +29,7 @@ const Expertise = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='flex flex-col gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                        <Image src={Javascript} alt='/' width='64px' height='64px' />
+                        <Image src={AppDevelopment} alt='/' width='150px' height='150px' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3> App Development </h3>
@@ -37,7 +41,7 @@ const Expertise = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='flex flex-col gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                        <Image src={Javascript} alt='/' width='64px' height='64px' />
+                        <Image src={Maintenance} alt='/' width='150px' height='150px' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3> Store Maintenance </h3>
@@ -49,7 +53,7 @@ const Expertise = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                     <div className='flex flex-col gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                        <Image src={Javascript} alt='/' width='64px' height='64px' />
+                        <Image src={CustomDesign} alt='/' width='150px' height='150px' />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3> Custom Development </h3>
