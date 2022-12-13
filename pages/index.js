@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import Main from '../components/Main';
-import About from '../components/About';
-import Skills from '../components/Skills';
-import Projects from '../components/Projects';
-import Contact from '../components/Contact';
-import Expertise from '../components/Expertise';
+import Head from "next/head";
+import Main from "../components/Main";
+import About from "../components/About";
+import Skills from "../components/Skills";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+import Expertise from "../components/Expertise";
 
 export default function Home() {
   return (
@@ -15,12 +15,12 @@ export default function Home() {
         <link rel="icon" href="/assets/ayce-logo.png" />
       </Head>
 
-    <Main/>
-    <About/>
-    <Expertise/>
-    <Skills/>
-    {/* <Projects/> */}
-    <Contact/>
+      <Main />
+      <About />
+      <Expertise />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
-  )
+  );
 }
