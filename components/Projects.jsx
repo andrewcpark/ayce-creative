@@ -1,5 +1,6 @@
 import React from "react";
-import VendOMatic from "../public/assets/projects/vendOMatic.png";
+import RawJuicery from "../public/assets/projects/rawJuicery.png";
+import ShipAid from "../public/assets/projects/ShipAid.png";
 import ProjectItem from "./ProjectItem.jsx";
 
 const Projects = () => {
@@ -13,10 +14,16 @@ const Projects = () => {
         <h2 className="py-4"> What I Worked On</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Vend-O-Matic"
-            description="Vending Machine Web Simulation"
-            image={VendOMatic}
-            url="/vendOMatic"
+            title="ShipAid"
+            description="Shopify App Development and Integrations"
+            image={ShipAid}
+            url="https://www.shipaid.com/"
+          />
+          <ProjectItem
+            title="Raw Juicery"
+            description="Shopify Theme Custom Updates"
+            image={RawJuicery}
+            url="https://rawjuicery.com/"
           />
         </div>
       </div>
