@@ -1,6 +1,7 @@
 import React from "react";
 import RawJuicery from "../public/assets/projects/rawJuicery.png";
 import ShipAid from "../public/assets/projects/ShipAid.png";
+import AYCEHG from "../public/assets/projects/Ayce_Home_and_Garden.png";
 import ProjectItem from "./ProjectItem.jsx";
 
 const Projects = () => {
@@ -24,6 +25,12 @@ const Projects = () => {
             description="Shopify Theme Custom Updates"
             image={RawJuicery}
             url="https://rawjuicery.com/"
+          />
+          <ProjectItem
+            title="AYCE Home & Garden"
+            description="Shopify Store Creation Password: aycecreative"
+            image={AYCEHG}
+            url="https://ayce-home-and-garden.myshopify.com/"
           />
         </div>
       </div>
