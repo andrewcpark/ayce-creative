@@ -13,6 +13,11 @@ export default function Home() {
         <title>Andrew | Shopify Developer </title>
         <meta name="Andrew C Park" content="Shopify Developer" />
         <link rel="icon" href="/assets/ayce-logo.png" />
+        <script
+          src="https://www.google.com/recaptcha/api.js"
+          async
+          defer
+        ></script>
       </Head>
 
       <Main />
