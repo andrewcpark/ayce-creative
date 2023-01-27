@@ -6,13 +6,10 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Script from "next/script";
 
 const Contact = () => {
   const [btn, setBtn] = useState(true);
-
-  const enableBtn = () => {
-    setBtn(false);
-  };
 
   return (
     <div id="contact" className="w-full lg:h-screen">
@@ -157,6 +154,11 @@ const Contact = () => {
           </div>
         </Link>
       </div>
+      <Script type="text/javascript">
+        {function enableBtn() {
+          setBtn(false);
+        }}
+      </Script>
     </div>
   );
 };
