@@ -152,11 +152,11 @@ const Contact = () => {
           </div>
         </Link>
       </div>
-      <script>{`
+      <Script>{`
     function enableBtn() {
-      document.getElementById('contactBtn').style.visibility = "visible"
+      document.getElementById("contactBtn").removeAttribute("hidden")
     }
-`}</script>
+`}</Script>
     </div>
   );
 };

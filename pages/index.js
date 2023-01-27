@@ -5,6 +5,8 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Expertise from "../components/Expertise";
+import Script from "next/script";
+
 
 export default function Home() {
   return (
