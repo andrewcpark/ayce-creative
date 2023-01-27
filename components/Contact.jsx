@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import ContactImg from "../public/assets/contact.jpg";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
@@ -9,8 +9,6 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Script from "next/script";
 
 const Contact = () => {
-  const [btn, setBtn] = useState(true);
-
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -134,7 +132,7 @@ const Contact = () => {
                 <button
                   className="w-full p-4 text-gray-100 mt-4"
                   id="contactBtn"
-                  disabled={btn}
+                  disabled="true"
                 >
                   {" "}
                   Send Message{" "}
@@ -154,10 +152,8 @@ const Contact = () => {
           </div>
         </Link>
       </div>
-      <Script type="text/javascript">
-        {function enableBtn() {
-          setBtn(false);
-        }}
+      <Script id="enableBtn" type="text/javascript">
+        {`document.getElementById("contactBtn").disabled = false`}
       </Script>
     </div>
   );
