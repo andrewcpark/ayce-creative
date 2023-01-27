@@ -9,9 +9,6 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Script from "next/script";
 
 const Contact = () => {
-  function enableBtn() {
-    document.getElementById("contactBtn").disabled = false;
-  }
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -135,7 +132,7 @@ const Contact = () => {
                 <button
                   className="w-full p-4 text-gray-100 mt-4"
                   id="contactBtn"
-                  disabled
+                  hidden
                 >
                   {" "}
                   Send Message{" "}
@@ -155,6 +152,11 @@ const Contact = () => {
           </div>
         </Link>
       </div>
+      <script>{`
+    function enableBtn() {
+       document.getElementByID("contactBtn").hidden=false;
+    }
+`}</script>
     </div>
   );
 };
