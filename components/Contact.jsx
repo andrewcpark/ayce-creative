@@ -8,6 +8,10 @@ import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
+  const enableBtn = () => {
+    document.getElementById("contactBtn").disabled = false;
+  };
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -126,8 +130,13 @@ const Contact = () => {
                 <div
                   className="g-recaptcha"
                   data-sitekey="6LdasC0kAAAAAEsrTdGHFFrS6-Hn1YK9eEF55Vcd"
+                  data-callback="enableBtn"
                 ></div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+                <button
+                  className="w-full p-4 text-gray-100 mt-4"
+                  id="contactBtn"
+                  disabled="true"
+                >
                   {" "}
                   Send Message{" "}
                 </button>
