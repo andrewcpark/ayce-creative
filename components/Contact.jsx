@@ -123,14 +123,10 @@ const Contact = () => {
                     name="message"
                   />
                 </div>
-                <form action="?" method="POST">
-                  <div
-                    className="g-recaptcha"
-                    data-sitekey="6LdasC0kAAAAAEsrTdGHFFrS6-Hn1YK9eEF55Vcd"
-                  ></div>
-                  <br />
-                  <input type="submit" value="Submit" />
-                </form>
+                <div
+                  className="g-recaptcha"
+                  data-sitekey="6LdasC0kAAAAAEsrTdGHFFrS6-Hn1YK9eEF55Vcd"
+                ></div>
                 <button className="w-full p-4 text-gray-100 mt-4">
                   {" "}
                   Send Message{" "}
