@@ -154,7 +154,7 @@ const Contact = () => {
       </div>
       <script>{`
     function enableBtn() {
-       document.getElementByID("contactBtn").hidden=false;
+      document.getElementById('contactBtn').style.visibility = "visible"
     }
 `}</script>
     </div>
