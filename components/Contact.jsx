@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import ContactImg from "../public/assets/contact.jpg";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
@@ -8,8 +8,10 @@ import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
+  const [btn, setBtn] = useState(true);
+
   const enableBtn = () => {
-    document.getElementById("contactBtn").disabled = false;
+    setBtn(false);
   };
 
   return (
@@ -135,7 +137,7 @@ const Contact = () => {
                 <button
                   className="w-full p-4 text-gray-100 mt-4"
                   id="contactBtn"
-                  disabled="true"
+                  disabled={btn}
                 >
                   {" "}
                   Send Message{" "}
