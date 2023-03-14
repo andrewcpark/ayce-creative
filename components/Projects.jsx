@@ -1,8 +1,8 @@
 import React from "react";
 import RawJuicery from "../public/assets/projects/rawJuicery.png";
 import ShipAid from "../public/assets/projects/ShipAid.png";
-import Fleurissent from "../public/assets/projects/fleurissent.png"
-import AYCEHG from "../public/assets/projects/Ayce_Home_and_Garden.png";
+import Fleurissent from "../public/assets/projects/fleurissent.png";
+import HandsCraftUS from "../public/assets/projects/handsCraftUS.png";
 import ProjectItem from "./ProjectItem.jsx";
 
 const Projects = () => {
@@ -32,6 +32,12 @@ const Projects = () => {
             description="Shopify App Development and Integrations"
             image={ShipAid}
             url="https://www.shipaid.com/"
+          />
+          <ProjectItem
+            title="Hands Craft US"
+            description="Shopify Theme Customization"
+            image={HandsCraftUS}
+            url="https://www.handscraft.com/"
           />
         </div>
       </div>

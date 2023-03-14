@@ -6,11 +6,13 @@ const ProjectItem = ({ title, description, image, url }) => {
   return (
     <div
       id="projectitem"
-      className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#64943E] to-[#95BF47]"
+      className="relative flex items-center justify-center h-full w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#64943E] to-[#95BF47]"
     >
       <Image
-        className="rounded-xl group-hover:opacity-10"
+        className="rounded-xl object-cover group-hover:opacity-10"
         src={image}
+        width="600"
+        height="300"
         alt="/"
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
