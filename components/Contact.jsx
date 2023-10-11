@@ -132,7 +132,7 @@ const Contact = () => {
                 <button
                   className="w-full p-4 text-gray-100 mt-4"
                   id="contactBtn"
-                  hidden
+                  disabled
                 >
                   {" "}
                   Send Message{" "}
@@ -154,7 +154,7 @@ const Contact = () => {
       </div>
       <Script>{`
     function enableBtn() {
-      document.getElementById("contactBtn").removeAttribute("hidden")
+      document.getElementById("contactBtn").removeAttribute("disabled")
     }
 `}</Script>
     </div>
