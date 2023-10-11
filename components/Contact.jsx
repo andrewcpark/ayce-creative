@@ -155,6 +155,7 @@ const Contact = () => {
       <Script>{`
     function enableBtn() {
       document.getElementById("contactBtn").removeAttribute("hidden")
+      document.getElementById("contactBtn").style.cursor = "pointer"
     }
 `}</Script>
     </div>
