@@ -59,9 +59,9 @@ useEffect (() => {
           <Link href='/#expertise'>
             <li className='ml-10 text-sm uppercase border-[#008060] hover:border-b'> Expertise </li>
           </Link>
-          <Link href='/#skills'>
+          {/* <Link href='/#skills'>
             <li className='ml-10 text-sm uppercase border-[#008060] hover:border-b'> Skills </li>
-          </Link>
+          </Link> */}
           <Link href='/#projects'>
             <li className='ml-10 text-sm uppercase border-[#008060] hover:border-b'> Projects </li>
           </Link>
