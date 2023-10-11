@@ -11,7 +11,7 @@ const Navbar = () => {
   // HOOK TO INITIALIZE AND SET STATE
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavbg] = useState("#ecf0f3");
+  const [navBg, setNavbg] = useState("#eeeeee");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
@@ -37,7 +37,7 @@ const Navbar = () => {
       setNavbg("transparent");
       setLinkColor("#f8f8f8");
     } else {
-      setNavbg("#ecf0f3");
+      setNavbg("#eeeeee");
       setLinkColor("#1f2937");
     }
   }, [router]);
@@ -110,7 +110,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#eeeeee] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
