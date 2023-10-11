@@ -33,7 +33,7 @@ const Contact = () => {
                 <p> Shopify Developer </p>
                 <p className="py-4">
                   {" "}
-                  I'm always looking to expand my network. Im am currently open
+                  I'm always looking to expand my network. I'm currently open
                   to working with merchants and agencies. Contact me and let's
                   talk!{" "}
                 </p>
