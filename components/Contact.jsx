@@ -33,8 +33,8 @@ const Contact = () => {
                 <p> Shopify Developer </p>
                 <p className="py-4">
                   {" "}
-                  I'm always looking to expand my network. I'm currently open
-                  to working with merchants and agencies. Contact me and let's
+                  I'm always looking to expand my network. I'm currently open to
+                  working with merchants and agencies. Contact me and let's
                   talk!{" "}
                 </p>
               </div>
@@ -130,7 +130,7 @@ const Contact = () => {
                   data-callback="enableBtn"
                 ></div>
                 <button
-                  className="w-full p-4 text-gray-100 mt-4"
+                  className="w-full p-4 text-gray-100 mt-4 cursor-not-allowed"
                   id="contactBtn"
                   disabled
                 >
@@ -154,7 +154,7 @@ const Contact = () => {
       </div>
       <Script>{`
     function enableBtn() {
-      document.getElementById("contactBtn").removeAttribute("disabled")
+      document.getElementById("contactBtn").removeAttribute("hidden")
     }
 `}</Script>
     </div>
