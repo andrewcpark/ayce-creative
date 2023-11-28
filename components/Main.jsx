@@ -14,7 +14,7 @@ const Main = () => {
                 <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'> I'm experienced in Shopify Theme and App Development. Based in Los Angeles, CA. </p>
                 <div className='flex items-center justify-evenly max-w-[330px] m-auto py-6'>
                   <Link href="/#contact">
-                    <li className="ml-10 py-2 px-6 text-sm text-white font-medium flex items-center rounded-lg uppercase bg-[#008060] border border-[#008060]  ease-in duration-300 hover:text-black hover:bg-transparent">
+                    <li className="py-2 px-6 text-sm text-white font-medium flex items-center rounded-lg uppercase bg-[#008060] border border-[#008060]  ease-in duration-300 hover:text-black hover:bg-transparent">
                       {" "}
                       Contact Me {" "}
                     </li>
