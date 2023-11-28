@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import ContactImg from "../public/assets/contact.jpg";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -29,7 +29,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2"> Andrew C Park </h2>
+                <h2 className="py-2"> Andrew Park </h2>
                 <p> Shopify Developer </p>
                 <p className="py-4">
                   {" "}
@@ -55,12 +55,12 @@ const Contact = () => {
                       </div>
                     </a>
                     <a
-                      href="https://github.com/andrewcpark"
+                      href="https://www.instagram.com/aycecreative"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]">
-                        <FaGithub />
+                        <FaInstagram />
                       </div>
                     </a>
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]">

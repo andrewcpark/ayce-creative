@@ -9,33 +9,16 @@ const Main = () => {
     <div id='main' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <h1 className='py-4 text-gray-700'> Hi, I'm <span className='text-[#008060]'> Andrew </span> </h1>
+                <h1 className='py-4 text-gray-700'> Hey, I'm <span className='text-[#008060]'> Andrew Park </span> </h1>
                 <h1 className='py-2 text-gray-700'> A Shopify Developer </h1>
                 <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'> I'm experienced in Shopify Theme and App Development. Based in Los Angeles, CA. </p>
                 <div className='flex items-center justify-evenly max-w-[330px] m-auto py-6'>
-                    <a
-                    href='https://www.linkedin.com/in/andrew-c-park/'
-                    target='_blank'
-                    rel='noreferrer'
-                    >
-                    <div title='LinkedIn' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
-                        <FaLinkedinIn/>
-                    </div>
-                    </a>
-                    <a
-                    href='https://github.com/andrewcpark'
-                    target='_blank'
-                    rel='noreferrer'
-                    >
-                    <div title='GitHub' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
-                    <FaGithub />
-                    </div>
-                    </a>
-                    <Link href='/#contact'>
-                    <div title='Message' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:bg-[#008060]'>
-                    <AiOutlineMail/>
-                    </div>
-                    </Link>
+                  <Link href="/#contact">
+                    <li className="ml-10 py-2 px-6 text-sm text-white font-medium flex items-center rounded-lg uppercase bg-[#008060] border border-[#008060]  ease-in duration-300 hover:text-black hover:bg-transparent">
+                      {" "}
+                      Contact Me {" "}
+                    </li>
+                  </Link>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 import logoImg from "../public/assets/ayce-logo.png";
@@ -59,19 +59,19 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase border-[#008060] hover:border-b">
+              <li className="ml-10 text-sm flex items-center uppercase border-[#008060] hover:border-b">
                 {" "}
                 Home{" "}
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-sm uppercase border-[#008060] hover:border-b">
+              <li className="ml-10 text-sm flex items-center uppercase border-[#008060] hover:border-b">
                 {" "}
                 About{" "}
               </li>
             </Link>
             <Link href="/#expertise">
-              <li className="ml-10 text-sm uppercase border-[#008060] hover:border-b">
+              <li className="ml-10 text-sm flex items-center uppercase border-[#008060] hover:border-b">
                 {" "}
                 Expertise{" "}
               </li>
@@ -80,7 +80,7 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase border-[#008060] hover:border-b'> Skills </li>
           </Link> */}
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase border-[#008060] hover:border-b">
+              <li className="ml-10 text-sm flex items-center uppercase border-[#008060] hover:border-b">
                 {" "}
                 Projects{" "}
               </li>
@@ -89,7 +89,7 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Blog </li>
           </Link> */}
             <Link href="/#contact">
-              <li className="ml-10 text-sm uppercase border-[#008060] hover:border-b">
+              <li className="ml-10 py-2 px-4 text-sm text-white font-medium flex items-center rounded-lg uppercase bg-[#008060] border border-[#008060]  ease-in duration-300 hover:text-black hover:bg-transparent">
                 {" "}
                 Contact{" "}
               </li>
@@ -180,7 +180,7 @@ const Navbar = () => {
               <Link href="/#contact">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm uppercase border-[#008060] hover:border-b"
+                  className="py-4 text-sm font-medium uppercase text-[#008060] border-[#008060] hover:border-b"
                 >
                   {" "}
                   Contact{" "}
@@ -203,12 +203,12 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/andrewcpark"
+                  href="https://www.instagram.com/aycecreative"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-[#008060]">
-                    <FaGithub />
+                    <FaInstagram  />
                   </div>
                 </a>
                 <Link href="/#contact">
